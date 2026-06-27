@@ -21,7 +21,7 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
       - name: Setup CML
-        uses: iterative/setup-cml@v3
+        uses: iterative/setup-cml@v4
       - name: Установка зависимостей
         run: pip install -r requirements.txt
       - name: Загрузка данных
